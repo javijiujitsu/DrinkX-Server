@@ -6,6 +6,8 @@ const cookieParser = require('cookie-parser');
 const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
 const mongoose     = require('mongoose');
+const UserModel    = require('./models/user-model');
+
 
 
 mongoose.connect('mongodb://localhost/drinkx-server');
