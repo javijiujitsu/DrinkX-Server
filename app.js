@@ -6,7 +6,9 @@ const cookieParser = require('cookie-parser');
 const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
 const mongoose     = require('mongoose');
-const UserModel    = require('./models/user-model');
+//-- MODELS--//
+const UserModel              = require('./models/user-model');
+const CocktailRecipeModel    = require('./models/cocktailrecipe-model');
 
 
 
