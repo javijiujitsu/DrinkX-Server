@@ -1,14 +1,15 @@
-const express      = require('express');
-const path         = require('path');
-const favicon      = require('serve-favicon');
-const logger       = require('morgan');
-const cookieParser = require('cookie-parser');
-const bodyParser   = require('body-parser');
-const layouts      = require('express-ejs-layouts');
-const mongoose     = require('mongoose');
+const express                = require('express');
+const path                   = require('path');
+const favicon                = require('serve-favicon');
+const logger                 = require('morgan');
+const cookieParser           = require('cookie-parser');
+const bodyParser             = require('body-parser');
+const layouts                = require('express-ejs-layouts');
+const mongoose               = require('mongoose');
 //-- MODELS--//
 const UserModel              = require('./models/user-model');
 const CocktailRecipeModel    = require('./models/cocktailrecipe-model');
+const ReviewModel            = require('./models/review-model');
 
 
 
